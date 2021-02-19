@@ -1,0 +1,125 @@
+.button {
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+#goal{
+    color: indigo;
+    font-weight: bold;
+    animation-name: goal;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes goal{
+    0%{color:indigo; font-size: 25px;}
+    25%{color: green; font-size: 30px;}
+    50%{color: red; font-size: 35px;}
+    75%{color: green; font-size: 30px;}
+    100%{color: indigo; font-size: 25px;}
+  }
+   
+  .button1 {        /* Botany */
+    background-color: white; 
+    font-weight: bold;
+    color: green; 
+    border: 2px solid green;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .button1:hover {  /* Botany */
+      font-weight: bolder;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  .button2 {        /* Zoology */
+    background-color: white; 
+    font-weight: bold;
+    color: red; 
+    border: 2px solid #f44336;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .button2:hover { /* Zoology */
+      font-weight: bolder;
+    background-color: #f44336;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  .button3 {      /* Physics */
+    background-color: white; 
+    font-weight: bold;
+    color: blue; 
+    border: 2px solid blue;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .button3:hover { /* Physics */
+      font-weight: bolder;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  .button4 {      /*Chemistry*/
+    background-color: white; 
+    font-weight: bold;
+    color: goldenrod; 
+    border: 2px solid goldenrod;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .button4:hover {  /*Chemistry*/
+      font-weight: bolder;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+   h2{
+      color: green;
+  }
+  h1{
+      color: red;
+  }
+  #botany{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+  }
+  #zoology{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+  }
+  #physics{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+  }
+  #chemistry{
+    background-color: goldenrod;
+    color: white;
+    border-radius: 10px;
+  }
+  @media only screen and (min-width: 400px){
+    .text{font-size: 20px;}
+  }
+  @media only screen and (min-width: 700px){
+    .text{font-size: 25px;}
+  }
